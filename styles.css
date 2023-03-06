@@ -7,45 +7,19 @@
 .grid{
     display:flex;
     flex-direction: column;
-    height:75vh;
-    width:75vh;
+    height:800px;
+    width:800px;
     
+    flex-flow: row wrap;
 
 
     background-color:gray;
 }
-.square{
-    width: 25%;
-    height: 100%;  
-}
 
-.first-row{
-    display:flex;
-    flex:1 1 200px;
-
-    align-items: center;
-}
-
-.second-row{
-    display:flex;
-    flex:1 1 200px;
-
-    align-items: center;
-
-}
-
-.third-row{
-    display:flex;
-    flex:1 1 200px;
-
-    align-items: center;
-
-}
-
-.fourth-row{
-    display:flex;
-    flex:1 1 200px;
-
-    align-items: center;
-
+button{
+    font-size: 50px;
+    margin: 2vh 5vh;
+    background-color: black;
+    color:white;
+    padding:2vh;
 }
